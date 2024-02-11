@@ -53,7 +53,7 @@
             <h2>Payment information</h2>
 
             <p>
-                <label for="card-type">Card type</label>
+                <label for="card-type">Card type: </label>
                 <select name="card-type" id="card-type">
                     <option selected disabled>select</option>
                     <option value="Visa">Visa</option>
@@ -63,12 +63,12 @@
             </p>
 
             <p>
-                <label for="card-number">Card number</label>
+                <label for="card-number">Card number: <strong><span aria-label="required">*</span></strong></label>
                 <input type="tel" id="card-number" name="card-number" required>
             </p>
 
             <p>
-                <label for="expiration-date">Expiration date</label>
+                <label for="expiration-date">Expiration date: <strong><span aria-label="required">*</span></strong></label>
                 <input 
                 type="text" 
                 required
