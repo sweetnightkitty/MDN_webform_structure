@@ -12,14 +12,15 @@ form {
     list-style: none;
     padding: 0;
     margin: 0;
-    align-items: center;
+
   }
   
   li + li {
     margin-top: 1em;
   }
+
   
-  label {
+  p label {
     /* Uniform size & alignment */
     display: block;
     width: 120px;
@@ -38,6 +39,11 @@ form {
   
     /* Match form field borders */
     border: 1px solid #999;
+  }
+
+  input[type="radio"] {
+    width: auto;
+    border: none;
   }
   
   input:focus,
