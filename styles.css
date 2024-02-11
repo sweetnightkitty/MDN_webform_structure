@@ -16,7 +16,7 @@ form {
   }
   
   li + li {
-    margin-top: 1em;
+    margin-bottom: 0;
   }
 
   
@@ -69,4 +69,11 @@ form {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
+  }
+
+  fieldset {
+    max-width: 300px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
   }
