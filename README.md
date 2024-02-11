@@ -3,3 +3,5 @@ This is a guided practice following along with the MDN guide at https://develope
 
 In accordance with the Odin Project curriculum on HTML form basics at https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-form-basics
 
+# Note on CSS stylings
+CSS styling provided by MDN
